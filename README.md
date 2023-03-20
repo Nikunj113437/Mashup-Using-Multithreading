@@ -5,3 +5,8 @@ Mashup performs the following tasks:
 2. Convert all the videos to audio
 3. Cut first Y sec audios from all downloaded files [Y can be any positive number]
 4. Merge all audios to make a single output file.
+
+### Run the program through command line as:
+Usage: python <program.py> <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>
+
+Example: python mashup.py “Sharry Maan” 20 20 audio-output.mp3
